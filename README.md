@@ -30,30 +30,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/string-num2words
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var num2words = require( '@stdlib/string-num2words' );
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
 ```
 
 #### num2words( value\[, options] )
@@ -115,7 +99,7 @@ out = num2words( 0.53, {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var num2words = require( '@stdlib/string-num2words' );
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
 
 var out = num2words( 29 );
 // returns 'twenty-nine'
@@ -161,7 +145,7 @@ out = num2words( 47, {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
