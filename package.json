@@ -13,6 +13,9 @@
       "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
     }
   ],
+  "bin": {
+    "num2words": "./bin/cli"
+  },
   "main": "./lib",
   "directories": {
     "benchmark": "./benchmark",
@@ -37,22 +40,35 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.0.x",
-    "@stdlib/assert-is-integer": "^0.0.x",
-    "@stdlib/assert-is-number": "^0.0.x",
-    "@stdlib/assert-is-plain-object": "^0.0.x",
-    "@stdlib/math-base-assert-is-finite": "^0.0.x",
-    "@stdlib/math-base-special-floor": "^0.0.x",
-    "@stdlib/string-base-ends-with": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
-    "@stdlib/utils-index-of": "^0.0.x"
+    "@stdlib/assert-has-own-property": "^0.0.7",
+    "@stdlib/assert-is-integer": "^0.0.8",
+    "@stdlib/assert-is-number": "^0.0.7",
+    "@stdlib/assert-is-plain-object": "^0.0.7",
+    "@stdlib/assert-is-regexp-string": "^0.0.9",
+    "@stdlib/cli-ctor": "^0.0.3",
+    "@stdlib/fs-read-file": "^0.0.8",
+    "@stdlib/math-base-assert-is-finite": "^0.0.7",
+    "@stdlib/math-base-special-floor": "^0.0.8",
+    "@stdlib/number-ctor": "^0.0.7",
+    "@stdlib/process-read-stdin": "^0.0.7",
+    "@stdlib/regexp-eol": "^0.0.7",
+    "@stdlib/streams-node-stdin": "^0.0.7",
+    "@stdlib/string-base-ends-with": "^0.0.2",
+    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/utils-index-of": "^0.0.8",
+    "@stdlib/utils-regexp-from-string": "^0.0.9"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/constants-float64-ninf": "^0.0.x",
-    "@stdlib/constants-float64-pinf": "^0.0.x",
+    "@stdlib/assert-is-browser": "^0.0.8",
+    "@stdlib/assert-is-string": "^0.0.8",
+    "@stdlib/assert-is-windows": "^0.0.7",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/constants-float64-ninf": "^0.0.8",
+    "@stdlib/constants-float64-pinf": "^0.0.8",
+    "@stdlib/process-exec-path": "^0.0.7",
+    "@stdlib/string-replace": "^0.0.11",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "proxyquire": "^2.0.0",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
@@ -83,7 +99,7 @@
     "word"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
