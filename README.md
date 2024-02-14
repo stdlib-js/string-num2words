@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-num2words/tags). For example,
+
+```javascript
 import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.0-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ out = num2words( 0.53, {
 <body>
 <script type="module">
 
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.0-esm/index.mjs';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@esm/index.mjs';
 
 var out = num2words( 29 );
 // returns 'twenty-nine'
