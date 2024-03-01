@@ -56,7 +56,8 @@
     "@stdlib/string-base-ends-with": "^0.2.1",
     "@stdlib/string-format": "^0.2.1",
     "@stdlib/utils-index-of": "^0.2.1",
-    "@stdlib/utils-regexp-from-string": "^0.2.1"
+    "@stdlib/utils-regexp-from-string": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
@@ -70,7 +71,7 @@
     "proxyquire": "^2.0.0",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.0"
+    "@stdlib/bench-harness": "^0.2.1"
   },
   "engines": {
     "node": ">=0.10.0",
