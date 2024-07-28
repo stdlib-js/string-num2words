@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@esm/index.mjs';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.2-esm/index.mjs';
 ```
 
 #### num2words( value\[, options] )
@@ -115,7 +115,7 @@ out = num2words( 0.53, {
 <body>
 <script type="module">
 
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@esm/index.mjs';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.2-esm/index.mjs';
 
 var out = num2words( 29 );
 // returns 'twenty-nine'
