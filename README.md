@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.2-deno/mod.js';
 ```
 
 #### num2words( value\[, options] )
@@ -110,7 +110,7 @@ out = num2words( 0.53, {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.2-deno/mod.js';
 
 var out = num2words( 29 );
 // returns 'twenty-nine'
