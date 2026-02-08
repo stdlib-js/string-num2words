@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-num2words/tags). For example,
+
+```javascript
 import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.3-deno/mod.js';
 ```
 
@@ -110,7 +115,7 @@ out = num2words( 0.53, {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@v0.2.3-deno/mod.js';
+import num2words from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-num2words@deno/mod.js';
 
 var out = num2words( 29 );
 // returns 'twenty-nine'
